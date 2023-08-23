@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cua-hang {
+    background-image: url(./image/anime-girl-in-grocery-store-gvxvpn39xut1vt9z.jpg);
+    height: 900px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#ven-dor {
+    background-color: transparent;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 130px;
+}
+
+#button, #coca, #bay-up, #nc-dua, #energy, #ep-dua, #snack, #poca {
+    position: absolute;
+}
+
+#button {
+    bottom: 149px;
+    left: 64px;
+}
+
+#coca, #bay-up, #nc-dua, #energy, #ep-dua {
+    bottom: 486px;
+}
+
+#coca {
+    left: 130px;
+}
+
+#bay-up {
+    left: 55px;
+}
+
+#nc-dua {
+    left: 248px;
+}
+
+#energy {
+    left: 91px;
+}
+
+#ep-dua {
+    left: 172px;
+}
+
+#snack {
+    top: 439px;
+    left: 50px;
+}
+
+#poca {
+    bottom: 245px;
+    left: 154px;
+}
+
+#show-ket-qua {
+    border: 1px solid black;
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    background-color: bisque;
+    top: 208px;
+    left: 711px;
+    border-radius: 20px;
+
+}
+
+#show-ket-qua h4 {
+    text-align: center;
+}
+
+#show-ket-qua p {
+    margin-left: 20px;
+}
+
+#tong-tien {
+    border: 1px solid black;
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    background-color: bisque;
+    top: 208px;
+    left: 711px;
+    border-radius: 20px;
+}
+
+#tong-tien p {
+    margin: 15px 0 10px 0;
+}

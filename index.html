@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendor Machine</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+      <link rel="stylesheet" href="./style.css">
+      <style>
+        .truong-hop-1 {
+          display: none;
+        }
+
+        .truong-hop-2 {
+          display: block;
+        }
+      </style>
+</head>
+<body>
+  <div class="cua-hang">
+    <div class="vendor">
+      <img id="ven-dor" src="./image/ven-dor-3.png" alt="">
+      <img id="button" src="./image/button-2.png" alt="">
+      <img id="coca" src="./image/cocane.png" alt="loncoca">
+      <img id="bay-up" src="./image/7upne.png" alt="lon7up">
+      <img id="nc-dua" src="./image/coconut.png" alt="lonncdua">
+      <img id="energy" src="./image/epdua.png" alt="lonenergy">
+      <img id="ep-dua" src="./image/energy.png" alt="lonepdua">
+      <img id="snack" src="./image/snack.png" alt="bichsnack">
+      <img id="poca" src="./image/san-wich.png" alt="bichsandwich">
+    </div>
+    <div class="truong-hop-1" id="show-ket-qua">
+      <h4>Kính chào quí khách</h4>
+      <p>Giá tiền của <span id="show-ten"></span> là <span id="show-gia"></span> đồng</p>
+    </div>
+    <div class="truong-hop-1" id="tong-tien">
+      <p>Tổng giá tiền của các sản phẩm là <span id="tong-tien-sp"></span> đồng</p>
+    </div>
+  </div>
+  <script src="./main.js"></script>  
+</body>
+</html>
